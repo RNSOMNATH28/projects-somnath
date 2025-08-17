@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height:  100vh; ;
+}
+h1{
+    text-align: center;
+    color: bisque;
+}
+.task-container{
+    
+    width: 90%;
+    max-width: 650px;
+    margin-top: 25px;
+}
+.tasks-box{
+    box-shadow: 0 4px 8px rgba(192, 5, 5, 0);
+    padding: 18px;
+    background-color: orange;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+.tasks-box h2{
+    margin: 0 0 10px;
+}
+.tasks-box p{
+    margin: 0 0 10px;
+}
+.delete-btn{
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    padding: 5px 10px;
+    border-radius: 10px ;
+    border: 1px solid;
+}
+ .add-task-form{
+    display: none;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 18px;
+    width: 90%;
+    max-width: 650px;
+    margin-top: 20px;
+    background-color: rgb(79, 4, 154);
+ }
+ .add-task-form input{
+    width: 90%;
+    display: block;
+    margin-top: 9px;
+    padding: 9px;
+    border: 1px solid;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500px;
+ }
+ .add-btn{
+    background-color: rgb(39, 13, 104);
+    color: bisque;
+    border: 9px;
+    border-radius: 10px solid ;
+    width: 93%;
+    height: 30px;
+    margin-top: 10px;
+ }
+ .add-task-btn{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: cornflowerblue;
+    color: black;
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+ }

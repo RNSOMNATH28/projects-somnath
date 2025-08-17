@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list web</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <h1>to do list </h1>
+    <div class="task-container" id="taskcontainer">
+        <div class="tasks-box">
+            <h2>sample task</h2>
+            <p>task description</p>
+            <button class="delete-btn" onclick="deletetask(this)">delete</button>
+        </div>
+    </div>
+
+    <div class="add-task-form" id="addtaskform">
+        <input type="text" placeholder="enter the task" id="tasktitle">
+        <input type="text" placeholder="enter the task description" id="taskdesc">
+        <button class="add-btn" onclick="addtask()">Add</button>
+    </div>
+
+    <button class="add-task-btn" onclick="showaddtaskform()">+</button>
+</body>
+<script src="todo.js"></script>
+</html>
